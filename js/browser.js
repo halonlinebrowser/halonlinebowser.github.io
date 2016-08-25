@@ -491,7 +491,7 @@ function checkUpdate(ver) {
         }, "500");  
     } else {
         ga('send', 'event', 'version', ver);
-        if (ver != ver) {
+        if (ver != EDVersion) {
 
             swal({   
                 title: "Version Outdated!",
