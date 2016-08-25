@@ -482,8 +482,6 @@ function switchBrowser(browser) {
         }, "1000");  
         sweetAlert.close();
     });
-}
-
 
 
 function hasMap(map) {
