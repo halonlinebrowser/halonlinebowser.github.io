@@ -1,0 +1,14 @@
+HTTrack3.48-22+htsswf+htsjava launched on Thu, 25 Aug 2016 12:23:09 at http://10.9.8.224:8080/ibreports/ibp/bp.html?fn=Students&fp=2&ip=10.35.244.160&ibip=10.9.8.224&ldu=0&re=0&bu=www.halo.click&bc=Website%20is%20part%20of%20blocklist. +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://10.9.8.224:8080/ibreports/ibp/bp.html?fn=Students&fp=2&ip=10.35.244.160&ibip=10.9.8.224&ldu=0&re=0&bu=www.halo.click&bc=Website%20is%20part%20of%20blocklist. -O1 "C:\Users\8094541989\Documents\my sites\Block" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:23:09	Warning: 	Cache: damaged cache, trying to repair
+12:23:09	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+12:23:09	Warning: 	Cache: error trying to open the cache
+
+HTTrack Website Copier/3.48-22 mirror complete in 3 seconds : 8 links scanned, 7 files written (74288 bytes overall) [76162 bytes received at 25387 bytes/sec]
+(No errors, 3 warnings, 0 messages)
