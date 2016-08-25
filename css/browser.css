@@ -121,7 +121,7 @@ button {
     height: 30px;
     border-style: solid;
     border: 1px solid white;
-
+    display: none;
 }
 
 .closeButton:hover{

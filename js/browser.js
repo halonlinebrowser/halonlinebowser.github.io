@@ -482,7 +482,25 @@ function switchBrowser(browser) {
         }, "1000");  
         sweetAlert.close();
     });
+}
 
+function checkUpdate(ver) {
+    if (EDVersion == 0) {
+        setTimeout(function() {
+            checkUpdate(ver);
+        }, "500");  
+    } else {
+        ga('send', 'event', 'version', ver);
+        if (ver != ver) {
+
+            swal({   
+                title: "Version Outdated!",
+                text: "In order to sort out prevalent issues, version " + EDVersion + " has been released.<br /><br />Please see reddit.com/r/HaloOnline for more info.",
+                type: "error", allowEscapeKey: false
+            });
+        }
+    }
+}
 
 function hasMap(map) {
     if(mapList[0].length == 0) {
